@@ -1,0 +1,63 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans:wght@500&family=Sofia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="screen">
+
+    <title>Django Task-1</title>
+    
+</head>
+
+<body>
+    <header class="page-header">
+    <div class="container">
+        <h1>Welcome to my Internship Task</h1>
+    </div>
+    </header>
+        
+    <p class="para">My name is Sharon. So, here is our page with dynamic content. Let's get started...!<br>Fill out this form to avail various courses on O(1) Coding Club. Aren't you excited?</p>
+    <div class="image">
+        <img src="{% static 'css/form.jpeg' %}" width="400" height="400"/>
+    </div>
+
+<div class="div_des">
+    <p class="details">Please enter your details here.</p>
+    <form>
+        <div class="ele">
+            First Name  :  <input type="text" placeholder="Your first name">
+        </div>
+        <div class="ele">
+            Last Name  :  <input size="20px" type="text" placeholder="Your last name">
+        </div>
+        <div class="ele">
+            Mail ID&nbsp&nbsp&nbsp&nbsp : <input type="email" placeholder="Email address">
+        </div>
+        <div class="ele">
+            Mobile No :  <input type="tel"  name="mobile" class="form-control" pattern="[1-9]{10}" oninvalid="setCustomValidity('Please enter valid format')" maxlength="10" placeholder="Enter your phone number" required>
+        </div>
+        <div class="ele">
+            <label for="course">Interested Course:</label>
+            <select id="course" name="course">
+              <option value="DSA in Java">DSA in Java</option>
+              <option value="Full Stack">Full Stack</option>
+              <option value="SQL Course">SQL Course</option>
+            </select>
+        </div>
+        <button class="button button1">Submit</button>
+
+   </form>
+</div>
+</body>
+</html>
+
+

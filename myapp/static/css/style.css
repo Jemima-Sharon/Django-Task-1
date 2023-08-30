@@ -1,0 +1,110 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster';
+    font-family: 'Cinzel', serif;
+}
+.page-header {
+    background-color: darkblue;
+    margin-top: 0px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 800px;
+    height: 90px;
+}
+body {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 700px;
+    background: linear-gradient(to bottom right, #ff99cc 0%, #ffff66 100%);;
+}
+.para{ 
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: darkred;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: revert;
+}
+img:hover {
+  transform: scaleX(-1);
+}
+.image{
+   margin-right: 150px;
+    border-radius: 20px;
+    opacity: 0.7;
+    filter: grayscale(50%);
+    float: right; 
+}
+
+.div_des{
+  width: 500px;
+  height: 420px;
+  padding: 2px;
+  border: 5px solid gray;
+  margin-left: 150px;
+}
+
+.details{
+text-align: center;
+font-size: 22px;
+text-decoration: underline;
+}
+
+.ele{
+    font-size: 20px;
+    margin-left: 30px;
+}
+input {
+  width: 350px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+select {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 200px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
